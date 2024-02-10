@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>Applying html list with Anchor tags</title>
+<style type="text/css">
+
+ul{  
+  list-style:none;
+  margin:0;
+  padding:0;
+  float:left;
+}
+ul#test{
+  font-size:120%;
+  width:28em;
+  background:#800000;
+}
+ul#test li{
+  clear:both;
+  text-align:right;
+  width:10em;
+}
+ul#test li a{
+  display:block;
+  float:right;
+  border:1px solid #000;
+  background:#ccc;
+  padding:3px;
+  text-decoration:none;  
+  color:#000;
+  margin:5px;
+}
+ul#test ul{
+  position:relative;
+  left:10.5em;
+  margin-top:-2em;
+  width:17em;
+}
+ul#test li li{
+  
+  text-align:left;
+  display:inline;
+
+}
+ul#test li li a{
+  text-align:left;
+  background:#fff;
+}
+
+</style>
+</head>
+<body>
+<ul id="test">
+  <li><a href="">Non-alcoholic Drinks</a></li>
+  
+  
+    <ul>
+      <li><a href="">Water</a></li>
+      <li><a href="">Tea</a></li>
+      <li><a href="">Herbal teas</a></li>
+      <li><a href="">Coffee</a></li>
+      <li><a href="">Milk</a></li>
+      <li><a href="">Sparkling water</a></li>
+      <li><a href="">Hot Chocolate</a></li>
+      <li><a href="">Juices</a></li>
+    </ul>
+  </li>
+  <li> <a href="">Alcoholic Drinks</a> </li>
+  
+  
+    <ul>
+      <li><a href="">White Wine</a></li>
+      <li><a href="">whisky</a></li>
+      <li><a href="">vodka</a></li>
+    </ul>
+  </li>
+</ul>
+<a href="#"><img src="bird.png" alt="Bird" style="width:200px;height:200px;"></a>
+
+<h3>Loading Audio & Videos to web page | Poster</h3>
+
+<video width="320" height="240" poster="/Images/smile.jpg" controls>
+   <source src="movie.mp4" type="video/mp4">
+   
+</video>
+
+<audio controls>
+  <source src="Audio.mp3" type="audio/mpeg">
+
+</audio>
+</body>
+</html>
